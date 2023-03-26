@@ -2,8 +2,8 @@ const hq=42
 function distanceFromHqInBlocks(blocks){
 return Math.abs(blocks-hq)
 }
-function distanceFromHqInFeet(feet){
-    
+function distanceFromHQINFeet(elBlock) {
+    let losFeet = distanceFromHQInBlocks(elBlock * 256)
 }
 function calculatesFarePrice(start, destination) {
     const distance = distanceTravelledInFeet(start, destination);
