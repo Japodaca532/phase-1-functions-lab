@@ -3,7 +3,7 @@ function distanceFromHqInBlocks(blocks){
 return Math.abs(blocks-hq)
 }
 function distanceFromHqInFeet(feet){
-return Math.abs(feet*264)
+return Math.abs(hq<42)
 }
 
 function calculatesFarePrice(start, destination) {
