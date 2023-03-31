@@ -2,12 +2,9 @@ const hq=42
 function distanceFromHqInBlocks(blocks){
 return Math.abs(blocks-hq)
 }
-const block = 264
-function distanceFromHqInFeet(feet) {
-    distanceFromHqInBlocks(blocks);
-
+function distanceFromHqInFeet(distInFeet){
+return distanceFromHqInBlocks(distInFeet) * 264;
 }
-
 function calculatesFarePrice(start, destination) {
     const distance = distanceTravelledInFeet(start, destination);
     const freeRide = 400;
